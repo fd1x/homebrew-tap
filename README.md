@@ -1,6 +1,6 @@
 # homebrew-tap
 
-Homebrew tap for GRIDWATCH command-line tools.
+Homebrew tap for FD1x command-line tools.
 
 ## Usage
 

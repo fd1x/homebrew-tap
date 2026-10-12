@@ -5,27 +5,27 @@ cask "backbrief" do
   on_macos do
     on_arm do
       sha256 "f94a157d7bca5043431cdbeb84d6dc747557ffcd1c8c63e2fa662047bd20e95b"
-      url "https://github.com/gridwatch/backbrief/releases/download/v#{version}/backbrief_#{version}_darwin_arm64.tar.gz"
+      url "https://github.com/fd1x/backbrief/releases/download/v#{version}/backbrief_#{version}_darwin_arm64.tar.gz"
     end
     on_intel do
       sha256 "c6b192d56f1a3845c4bfd6a6fa81ad484098bc84f46184ad5e7a5a9d1779831d"
-      url "https://github.com/gridwatch/backbrief/releases/download/v#{version}/backbrief_#{version}_darwin_amd64.tar.gz"
+      url "https://github.com/fd1x/backbrief/releases/download/v#{version}/backbrief_#{version}_darwin_amd64.tar.gz"
     end
   end
   on_linux do
     on_arm do
       sha256 "c0f3bbf84341aa7dcee01f8e022e70cbd3a0974e3acd475bbc61c21923e50016"
-      url "https://github.com/gridwatch/backbrief/releases/download/v#{version}/backbrief_#{version}_linux_arm64.tar.gz"
+      url "https://github.com/fd1x/backbrief/releases/download/v#{version}/backbrief_#{version}_linux_arm64.tar.gz"
     end
     on_intel do
       sha256 "3eb036e58130aa9a7c0f73e169fdab5c51c12c4efb569bc8e122568685d7389d"
-      url "https://github.com/gridwatch/backbrief/releases/download/v#{version}/backbrief_#{version}_linux_amd64.tar.gz"
+      url "https://github.com/fd1x/backbrief/releases/download/v#{version}/backbrief_#{version}_linux_amd64.tar.gz"
     end
   end
 
   name "backbrief"
-  desc "Repository status board for the GRIDWATCH org"
-  homepage "https://github.com/gridwatch/backbrief"
+  desc "Repository status board for the fd1x org"
+  homepage "https://github.com/fd1x/backbrief"
 
   livecheck do
     skip "Auto-generated on release."
