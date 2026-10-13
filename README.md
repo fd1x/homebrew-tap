@@ -5,8 +5,8 @@ Homebrew tap for FD1x command-line tools.
 ## Usage
 
 ```sh
-brew tap gridwatch/tap
-brew install gridwatch/tap/<tool>
+brew tap fd1x/tap
+brew install fd1x/tap/<tool>
 ```
 
 ## Maintenance
